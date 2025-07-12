@@ -2,6 +2,7 @@ import Product from "../models/Product.js";
 import ProductStat from "../models/ProductStat.js";
 import User from "../models/user.js";
 import Transaction from "../models/Transaction.js";
+import getCountryIso3 from "country-iso-2-to-3";
 
 
 export const getProducts=async(req,res)=>{
@@ -59,9 +60,13 @@ export const getTransactions=async(req,res)=>{
       .skip(page* pageSize)
       .limit(pageSize);
 
-      const total=await Transaction.countDocuments({
-        name:{$regex:search,$options:"i"}
-      });
+      const total = await Transaction.countDocuments({
+  $or: [
+    { cost: { $regex: new RegExp(search, "i") } },
+    { userId: { $regex: new RegExp(search, "i") } },
+  ],
+});
+
 
        res.status(200).json({
         transactions,
@@ -71,4 +76,19 @@ export const getTransactions=async(req,res)=>{
         res.status(404).json({message: "error.message"});
     }
 };  
+
+
+
+export const getGeography=async(req,res)=>{
+  try{
+    const users=await User.find();
+    const mappedLocations=users.reduce((acc,{country})=>{
+      const countryISO3=getCountryIso3(country);
+    })
+
+  }catch(error){
+        res.status(404).json({message: "error.message"});
+    }
+}
+
 
