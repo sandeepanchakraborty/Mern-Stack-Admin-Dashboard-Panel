@@ -1,16 +1,16 @@
 import mongoose from "mongoose";
 
-const TransactionSchemna = new mongoose.Schema(
+const TransactionSchema = new mongoose.Schema(
   {
-    userId:String,
-    cost:String,
-    products:{
-        type:[mongoose.Types.ObjectId],
-        of:Number
+    userId: String,
+    cost: String,
+    products: {
+      type: [mongoose.Types.ObjectId],
+      of: Number,
     },
   },
-  {timestamps:true}
+  { timestamps: true }
 );
 
-const Transaction = mongoose.model("Transaction",TransactionSchemna );
+const Transaction = mongoose.model("Transaction", TransactionSchema);
 export default Transaction;
