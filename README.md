@@ -118,7 +118,7 @@ Mern-Stack-Admin-Dashboard-Panel/
 
 | Dashboard Home | Analytics  | User Management |
 |:--------------:|:----------:|:--------------:|
-| ![Dashboard](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/assets/your-image1.png) | ![Analytics](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/assets/your-image2.png) | ![Users](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/assets/your-image3.png) |
+| ![Dashboard](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/blob/main/Screenshot%202025-07-23%20183951.png) | ![Analytics](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/blob/main/Screenshot%202025-07-23%20184020.png) | ![Users](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/blob/main/Screenshot%202025-07-23%20184102.png) |
 
 _Add your own screenshots above!_
 
