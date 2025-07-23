@@ -1,6 +1,6 @@
 # 🌟 MERN Stack Admin Dashboard Panel
 
-![MERN Admin Dashboard Banner](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/assets/your-banner-image-path) <!-- Replace with your own banner if available -->
+![MERN Admin Dashboard Banner](https://github.com/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel/blob/main/Screenshot%202025-07-23%20183951.png) <!-- Replace with your own banner if available -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/MERN-Stack-4CAF50?style=for-the-badge&logo=mern&logoColor=white" alt="MERN Stack Badge"/>
