@@ -8,9 +8,7 @@
   <img src="https://img.shields.io/github/stars/sandeepanchakraborty/Mern-Stack-Admin-Dashboard-Panel?style=for-the-badge" alt="Stars Badge"/>
 </p>
 
-<div align="center">
-  <img src="https://lottie.host/9f1c1e7d-0742-4b4f-b455-7eaa2d9e0c6e/PiaK2cI7tY.json" width="240" alt="Animated Dashboard" />
-</div>
+
 
 ---
 
